@@ -11,9 +11,13 @@
     <h1 class="hidden">This is a Responsive Scaffold </h1>
     <header class="grid-con">
         <h2 class="hidden">This is my header</h2>
-        <div class="box col-start-1 col-span-3"> Logo</div>
-        <div class="box col-start-4 col-end-5"> Nav</div>
-   </header>
+        <!-- I do not know if this is a test or i am overthinking this, on FOL the scaffold 
+            reffrence image for the mobile shows logo first then nav, but design experience the nav should 
+        probaly come before the logo. anyways will leave the order as it is,
+    but use css to switch the order -->
+        <div  class="box col-start-2 col-end-5 m-col-start-1 m-col-end-4"> Logo</div>
+        <div id="nav" class="box col-start-1 col-end-2 m-col-start-4 m-col-end-13"> Nav</div>
+   </header> 
  <main>
     <div id="hero-img" class="full-width-grid-con">
         <!-- Actual hero images with different sizes within the img tag goes in here
@@ -27,19 +31,19 @@
 
     <section class="grid-con">
         <h2 class="hidden">Products Listings</h2>
-        <div class="box col-span-full">Product 1</div>
-        <div class="box col-span-full">Product 2</div>
+        <div class="box col-span-full m-col-start-1 m-col-span-6">Product 1</div>
+        <div class="box col-span-full m-col-start-7 m-col-span-6">Product 2</div>
     </section>
 
     <section class="grid-con">
         <h2 class="hidden">Service Listings</h2>
-        <div class="box col-span-2">Service 1</div>
-        <div class="box col-span-2">Service 2</div>
-        <div class="box col-span-2">Service 3</div>
-        <div class="box col-span-2">Service 4</div>
-        <div class="box col-span-2">Service 5</div>
+        <div class="box col-span-2 m-col-span-4">Service 1</div>
+        <div class="box col-span-2 m-col-span-4">Service 2</div>
+        <div class="box col-span-2 m-col-span-4">Service 3</div>
+        <div class="box col-span-2 m-col-span-4">Service 4</div>
+        <div class="box col-span-2 m-col-span-4">Service 5</div>
         <div class="box img-hide">Image</div>
-        <div class="box col-span-2">Service 6</div>
+        <div class="box col-span-2 m-col-span-4">Service 6</div>
     </section>
 
  </main>
@@ -47,7 +51,7 @@
     <div  id="footer-img" class="full-width-grid-con">
         <section class="grid-con">
           <h3 class="hidden">This is my footer</h3>
-          <div class="box col-span-full">Footer</div>
+          <div class="box col-span-full m-col-span-full">Footer</div>
        </section>
    </div>
  </footer>
