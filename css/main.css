@@ -1,5 +1,9 @@
 
+#nav {
+    order: -1;
+ }
 
+/* This hides the div in the HTML that is not supposed to show to mobile users */
 .img-hide{
     display: none;
 }
@@ -20,4 +24,13 @@
     grid-row:1/1;
     /* get rid of margin 0 auto from the original class */
     margin: 0;
+ }
+
+ /* *. ---Tablet Sized Screens--- */
+ @media screen and (min-width: 768px){
+
+    #nav {
+        order: 1;
+     }
+
  }
