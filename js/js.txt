@@ -1,0 +1,2 @@
+This is where my Java Scripts will be as js stands for Java Scripts
+My script tag will be placed just before the closing tag of the body
