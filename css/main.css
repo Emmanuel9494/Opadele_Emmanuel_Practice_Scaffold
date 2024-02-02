@@ -1,0 +1,23 @@
+
+
+.img-hide{
+    display: none;
+}
+
+#hero-img .grid-con {
+    /* Telling this grid to live in the middle column */
+    grid-column: 2/3;
+    /* also telling it stay in the first row, so it overlaps the hero image */
+    grid-row:1/1;
+    /* get rid of margin 0 auto from the original class */
+    margin: 0;
+ }
+
+ #footer-img .grid-con {
+    /* Telling this grid to live in the middle column */
+    grid-column: 2/3;
+    /* also telling it stay in the first row, so it overlaps the hero image */
+    grid-row:1/1;
+    /* get rid of margin 0 auto from the original class */
+    margin: 0;
+ }
